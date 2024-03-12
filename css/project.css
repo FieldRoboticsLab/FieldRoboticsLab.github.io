@@ -1,0 +1,24 @@
+.bullet a {
+    color: #ee8e7c; /* veya istediğiniz varsayılan renk */
+    text-decoration: underline !important; /* altını çiz */
+    transition: color 0.3s ease; /* renk değişimini yumuşat */
+    font-size: 20px; /* İsteğe bağlı: Font boyutunu ayarlar */
+    font-weight: bold;
+}
+
+.bullet a:hover {
+    color: black; /* mouse üzerine gelindiğinde siyah renk (aynı renk kullanıldığı için değişiklik olmayacak) */
+}
+
+.my-button {
+    background-color: #ee8e7c;
+    color: #fff;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+}
+.my-button:hover {
+    background-color: #000000; /* Fare hover edildiğinde yeni renk */
+    color: #fff;
+}

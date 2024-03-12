@@ -1,0 +1,56 @@
+.duyuru-kutusu {
+    width: 100%;
+    max-width: 90vw;
+    height: 400px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.duyuru-icerik {
+    padding: 10px;
+}
+
+/* Bootstrap scroll bar özelleştirmeleri */
+.duyuru-kutusu::-webkit-scrollbar {
+    width: 12px;
+}
+.duyuru {
+    border: 2px solid #ee8e7c;
+    box-sizing: border-box; /* Padding ve border'ı genişlik hesaplamasına dahil eder */
+    padding: 15px;
+}
+
+.duyuru-baslik {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.duyuru-aciklama {
+    margin-bottom: 15px;
+}
+
+.duyuru-kutusu::-webkit-scrollbar-thumb {
+    background-color: #8f827c;
+    border-radius: 10px;
+}
+
+.duyuru-kutusu::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.duyuru-oku-btn {
+    background-color: #ee8e7c;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+}
+.duyuru-oku-btn:hover {
+    background-color: #000000; /* Fare hover edildiğinde yeni renk */
+    color: #fff;
+}
+.duyuru-tarih {
+    color: #555;
+}
