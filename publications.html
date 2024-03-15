@@ -38,15 +38,12 @@
             font-size: 20px; /* Metnin font büyüklüğünü ayarlar */
          }
 
-         body {
+         .container {
          font-family: Arial, sans-serif;
          background-color: #f5f5f5; /* Hafif gri arka plan rengi */
          color: #333; /* Metin rengi */
          margin: 0;
          padding: 0;
-         }
-
-         .container {
          width: 80%;
          margin: auto;
          }
@@ -80,7 +77,8 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                  <div class="col-md-6 offset-md-1">
+                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                            <a class="nav-link" href="index.html">Home</a>
                         </li>
@@ -109,7 +107,8 @@
                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                      </ul>
-                </div>
+                 </div>
+               </div>
             </nav>
         </div>
    </div>
